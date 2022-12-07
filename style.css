@@ -154,11 +154,18 @@ position: relative;
 }
 
 .result {
+  font-family: 'League Spartan',sans-serif;
   height: 73px;
+  letter-spacing: .02em;
   margin: 0px 0 25px;
   background-color: var(--screen-background_theme1);
   border-radius: 7px;
   color: var(--color-text2_theme1);
+  padding: 14px 10px;
+  font-size: 32px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 .main {
   border-radius: 7px;
