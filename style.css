@@ -3,7 +3,7 @@
 :root{
   --width-Mobile: 375px;
   --width-Desktop: 1440px;
-
+/* 
   
 
   --main-background_theme: hsl(0, 0%, 90%);
@@ -48,7 +48,7 @@
   --key-background3_theme: hsl(30, 25%, 89%);
   --key-shadow3_theme: hsl(28, 16%, 65%);
   --color-text1_theme: hsl(221, 14%, 31%);
-  --color-text2_theme: hsl(0, 0%, 100%);
+  --color-text2_theme: hsl(0, 0%, 100%); */
   --fs:32px;
   --fw:700;
   --ff:var('League Spartan',sans-serif)
@@ -234,7 +234,7 @@ position: relative;
   grid-template-rows: 200px 50;
   gap: 10px;
 }
-.main div {
+.main button {
   background-color: var(--color-text2_theme);
   display: flex;
   justify-content: center;
@@ -246,9 +246,10 @@ position: relative;
   box-shadow: 0 4px var(--key-shadow3_theme);
   font-family: 'League Spartan', sans-serif;
   font-size: 1.5rem;
+  border: none;
   /* margin: auto; */
 }
-.main>div:hover{
+.main>button:hover{
   cursor: pointer;
 }
 .one{

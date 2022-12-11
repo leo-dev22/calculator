@@ -11,9 +11,9 @@ const span =document.querySelector('.span')
 
 
 themeToggle1.addEventListener('click',()=>{
-  // document.body.classList.add('theme1')
-  // document.body.classList.remove('theme2')
-  // document.body.classList.remove('theme3')
+  document.body.classList.add('theme1')
+  document.body.classList.remove('theme2')
+  document.body.classList.remove('theme3')
   
   container.classList.add('theme1')
   container.classList.remove('theme2')
@@ -24,9 +24,9 @@ themeToggle1.addEventListener('click',()=>{
   
 })
 themeToggle2.addEventListener('click',()=>{
-  // document.body.classList.add('theme2')
-  // document.body.classList.remove('theme1')
-  // document.body.classList.remove('theme3')
+  document.body.classList.add('theme2')
+  document.body.classList.remove('theme1')
+  document.body.classList.remove('theme3')
   container.classList.add('theme2')
   container.classList.remove('theme1')
   container.classList.remove('theme3')
@@ -35,9 +35,9 @@ themeToggle2.addEventListener('click',()=>{
   span.classList.remove('theme3')
 })
 themeToggle3.addEventListener('click',()=>{
-  // document.body.classList.add('theme3')
-  // document.body.classList.remove('theme1')
-  // document.body.classList.remove('theme2')
+  document.body.classList.add('theme3')
+  document.body.classList.remove('theme1')
+  document.body.classList.remove('theme2')
   document.body.style.color='red'
   container.classList.add('theme3')
   container.classList.remove('theme1')
