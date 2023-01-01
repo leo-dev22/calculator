@@ -393,4 +393,28 @@ position: relative;
   gap: 20px;
 
 }
+.row1 h1 {
+  font-size: 40px;
+}
+.span{
+  gap: 22px;
+  font-size: 12px;
+  margin-right: 28px;
+}
+.theme h2{
+  font-size: 15px;
+}
+.theme-btn-color{
+  width: 76px;
+  height: 20px;
+}
+.btn-color1{
+  left: 6px;
+}
+.btn-color2{
+  left: 34px;
+}
+.btn-color3{
+  left: 62px;
+}
 }
