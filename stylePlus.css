@@ -83,8 +83,8 @@ body {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 50%;
-  min-height: 450px;
-  max-height: 480px;
+  /* height: 450px;
+  max-height: 480px; */
   padding-left:calc(var(--bs-gutter-x) * .5);
   padding-right:calc(var(--bs-gutter-x) * .5);
   margin-right:auto;
