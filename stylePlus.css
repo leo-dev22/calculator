@@ -374,12 +374,12 @@ position: relative;
     width: 100% !important;
     height: 100% !important;
     background-color: rgb(88, 168, 237);
-   
+   padding-top: 30px;
     
 }
 .result{
   margin-bottom: 50px;
-
+  font-size: 32px;
 }
 .main{
  margin-bottom: 20px;
