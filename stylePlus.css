@@ -366,12 +366,18 @@ position: relative;
 }}
 @media (min-width: 576px){
 .container, .container-sm {
+  background-color: bisque;
     max-width: 540px !important;
 }}
 @media (max-width: 435px){
 .container, .container-sm {
     width: 100% !important;
     height: 100% !important;
-    background-color: rgb(164, 190, 212);
+    background-color: rgb(88, 168, 237);
+   
     
-}}
+}
+.main{
+  margin-top: 30px;
+}
+}
