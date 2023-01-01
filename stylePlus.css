@@ -184,17 +184,17 @@ position: relative;
   background-color: var(--keypad-background_theme);
   padding: 10px;
   width: 100%;
-  height: 100%;
+  height: 450px;
   display: grid;
   grid-template:
-      "seven eight nine delete" 40px
-      "four five six plus" 40px
-      "one two three minus" 40px
-      "dot zero divide multiply" 40px
-      "reset reset equal equal" 40px/ 1fr 1fr 1fr 1fr;
+      "seven eight nine delete" 50px
+      "four five six plus" 50px
+      "one two three minus" 50px
+      "dot zero divide multiply" 50px
+      "reset reset equal equal" 50px/ 1fr 1fr 1fr 1fr;
   /* grid-template-columns: 150px 4;
   grid-template-rows: 200px 50; */
-  gap: 10px;
+  gap: 12px;
 }
 .main button {
   background-color: var(--color-theme);
