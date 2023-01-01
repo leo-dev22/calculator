@@ -84,7 +84,7 @@ body {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 50%;
-  height: 450px;
+  height: 80vh;
   padding-left:calc(var(--bs-gutter-x) * .5);
   padding-right:calc(var(--bs-gutter-x) * .5);
   margin-right:auto;
@@ -370,5 +370,6 @@ position: relative;
 @media (max-width: 435px){
 .container, .container-sm {
     width: 90% !important;
+    background-color: rgb(164, 190, 212);
     
 }}
