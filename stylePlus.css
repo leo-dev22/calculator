@@ -81,10 +81,10 @@ body {
   overflow-y: hidden;
 }
 .container{
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 2rem;
   --bs-gutter-y: 0;
   width: 50%;
-  height: 80vh;
+  height: 100vh;
   padding-left:calc(var(--bs-gutter-x) * .5);
   padding-right:calc(var(--bs-gutter-x) * .5);
   /* margin-right:auto;
@@ -180,6 +180,7 @@ position: relative;
   align-items: center;
 }
 .main {
+  margin-top:25px ;
   border-radius: 7px;
   background-color: var(--keypad-background_theme);
   padding: 20px;
