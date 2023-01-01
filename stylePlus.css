@@ -83,7 +83,8 @@ body {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 50%;
-  height: 313px;
+  min-height: 450px;
+  max-height: 480px;
   padding-left:calc(var(--bs-gutter-x) * .5);
   padding-right:calc(var(--bs-gutter-x) * .5);
   margin-right:auto;
@@ -165,7 +166,7 @@ position: relative;
 
 .result {
   font-family: 'League Spartan',sans-serif;
-  height: 2.5rem;
+  height: 4rem;
   text-align: center;
   letter-spacing: .02em;
   margin: 0px 0 20px;
