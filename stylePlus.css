@@ -69,6 +69,7 @@
 }
 
 body {
+  border: 2px solid green;
   margin: 0;
   font-family: var(--ff);
   font-size: var(--fs);
@@ -76,12 +77,14 @@ body {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  overflow-y: hidden;
+  padding: 20px 0;
 }
 .container{
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 50%;
-  max-height: 100vh;
+  height: 100vh;
   padding-left:calc(var(--bs-gutter-x) * .5);
   padding-right:calc(var(--bs-gutter-x) * .5);
   margin-right:auto;
