@@ -71,6 +71,7 @@
 body {
   border: 2px solid green;
   margin: 0;
+  height: 100vh;
   font-family: var(--ff);
   font-size: var(--fs);
   font-weight: var(--fw);
@@ -83,8 +84,7 @@ body {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 50%;
-  /* height: 450px;
-  max-height: 480px; */
+  height: 450px;
   padding-left:calc(var(--bs-gutter-x) * .5);
   padding-right:calc(var(--bs-gutter-x) * .5);
   margin-right:auto;
@@ -370,4 +370,5 @@ position: relative;
 @media (max-width: 435px){
 .container, .container-sm {
     width: 90% !important;
+    
 }}
