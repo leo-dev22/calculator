@@ -58,7 +58,7 @@
 
 /*  */
 .mt{
-  margin-top:25px;
+  /* margin-top:25px; */
 }
 
 /*  */
@@ -87,8 +87,8 @@ body {
   height: 80vh;
   padding-left:calc(var(--bs-gutter-x) * .5);
   padding-right:calc(var(--bs-gutter-x) * .5);
-  margin-right:auto;
-  margin-left:auto;
+  /* margin-right:auto;
+  margin-left:auto; */
   border: 2px solid yellow;
   overflow-y: hidden;
 }
@@ -369,7 +369,8 @@ position: relative;
 }}
 @media (max-width: 435px){
 .container, .container-sm {
-    width: 90% !important;
+    width: 100% !important;
+    height: 100% !important;
     background-color: rgb(164, 190, 212);
     
 }}
